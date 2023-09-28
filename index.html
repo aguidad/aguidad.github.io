@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>~Guidev</title>
+    <meta name="description" content="Guidad Aymen portfolio" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- Contact -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile.png"
+              alt="Guidad Aymen"
+              width="60"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Guidad Aymen">Guidad Aymen</h1>
+
+            <p class="title">Full Stack Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  target="_blank"
+                  href="mailto:aimenguidad@gmail.com"
+                  class="contact-link"
+                  >aimenguidad@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=213656921150"
+                  class="contact-link"
+                  >+213 656 921 150</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1997-12-04">Dec 04, 1997</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Biskra, ALG</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/aguidad/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://twitter.com/GuidadAymen"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://github.com/aguidad"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <!-- Menu -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Blog</button>
+              </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- About -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Highly skilled React/React Native developer with over 4 years of
+              experience in creating web/mobile applications and 8+ years in
+              computer science.
+            </p>
+
+            <p>
+              Possessing strong knowledge in JavaScript and TypeScript
+              programming languages, as well as experience in Nextjs, Node.js,
+              Prisma, MongoDB, SQL, and much more. Highly motivated and
+              passionate about developing innovative and user-friendly
+              applications that meet clients' needs.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jessica miller
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+
+          <h3 class="h3 service-title">Skills</h3>
+          <div class="skills">
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-nextjs-original" style="color: white"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-firebase-plain colored"></i>
+            <i class="devicon-mongodb-plain colored"></i>
+            <i class="devicon-mysql-plain colored"></i>
+            <i class="devicon-linux-plain" style="color: blanchedalmond"></i>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-github-original colored" style="color: white"></i>
+            <i class="devicon-figma-plain colored"></i>
+          </div>
+        </article>
+
+        <!-- resume -->
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <!-- Education -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">MSc in Computer Networks</h4>
+
+                <span>2018 — 2020</span>
+
+                <p class="timeline-text">
+                  Ranked as the first student in the group,
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/16iDwn3datDb01lha8vbjykJlpHZ_TYwc/view?usp=drive_link"
+                    >certification</a
+                  >.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">BSc in Computer Science</h4>
+
+                <span>2016 — 2018</span>
+
+                <p class="timeline-text">
+                  Ranked in the top 10 of the group,
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/16fItqIVgAO7wkIG3dT99UiAjTatKbl_c/view?usp=drive_link"
+                    >certification</a
+                  >.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Experience -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  React/React Native Developer
+                </h4>
+
+                <span>2020 — Present (Freelance)</span>
+
+                <p class="timeline-text">
+                  For 4 years I have been working as a react/react-native
+                  developer. I created many projects and helped many people to
+                  solve problems in their applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Computer Science Student</h4>
+
+                <span>2016 — 2020</span>
+
+                <p class="timeline-text">
+                  In my five-year computer science program, I've built numerous
+                  projects, deepening my knowledge and practical skills. This
+                  experience, combined with academic excellence, equips me with
+                  a strong foundation for success in software development.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- skills -->
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML & CSS</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript & TypeScript</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tailwind CSS</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React & React Native</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Nextjs</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Nodejs</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB / SQL</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git & Github</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Linux</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--- #PORTFOLIO-->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Extensions</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Extensions</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- car wash -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  target="_blank"
+                  href="https://apps.apple.com/us/app/%D9%86%D8%B9%D9%88%D9%85%D8%A9/id6452754728"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/softwash.png"
+                      alt="sotft wash"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cars Washing</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <!-- islamic marriage -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  target="_blank"
+                  href="https://apps.apple.com/us/app/%D8%AE%D8%B7%D9%88%D8%A8%D8%A9/id6450279566"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/khotoba.png"
+                      alt="Islamic Marriage System"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Islamic Marriage System</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <!-- hair cut -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.helakati.app"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/hair-cat.png"
+                      alt="Haircuts"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Haircuts</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <!-- cyber store -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.cyberstore"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/cyberstore.png"
+                      alt="Cyber Store"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cyber Store</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <!-- guidify -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a target="_blank" href="https://guidify.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guidify.png"
+                      alt="guidify"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Guidify</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <!-- game hub -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a target="_blank" href="https://game-hub-blue-two.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/game-hub.png"
+                      alt="game hub"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Game Hub</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <!-- rn-icons-ext -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="extensions"
+              >
+                <a
+                  target="_blank"
+                  href="https://marketplace.visualstudio.com/items?itemName=guidev.react-native-icons-preview"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/vse-rn-icons.png"
+                      alt="vscode extension"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    VS Code Extension - RN Icons Preview
+                  </h3>
+
+                  <p class="project-category">Extensions</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--- #CONTACT -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formsubmit.co/aimenguidad@gmail.com"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
