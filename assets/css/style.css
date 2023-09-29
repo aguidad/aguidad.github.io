@@ -2030,3 +2030,14 @@ textarea.form-input::-webkit-resizer {
   font-size: 5rem;
   justify-self: center;
 }
+
+.download-resume .info-content {
+  margin: 1rem 0 2rem 0;
+}
+
+.download-resume .title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--orange-yellow-crayola);
+}
